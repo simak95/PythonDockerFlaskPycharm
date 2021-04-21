@@ -10,3 +10,6 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 
 # SQL Data Screenshot
 ![pycharm data query](screenshots/query.png)
+
+# SQL Table Screenshot
+![sql_table](screenshots/sqltable.png)

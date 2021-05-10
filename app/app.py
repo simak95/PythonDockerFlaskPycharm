@@ -18,14 +18,14 @@ mysql.init_app(app)
 
 @app.route('/', methods=['GET'])
 def index():
-    user = {'username': 'Oscar Winners Female'}
+    user = {'username': 'Oscar Winners: Female'}
     cursor = mysql.get_db().cursor()
     cursor.execute('SELECT * FROM oscarfemale')
     result = cursor.fetchall()
     return render_template('index.html', title='Home', user=user, Names=result)
 
 
-@app.route('/view/<String:Name>', methods=['GET'])
+@app.route('/view/<string:Name>', methods=['GET'])
 def record_view(Name):
     cursor = mysql.get_db().cursor()
     cursor.execute('SELECT * FROM oscarfemale WHERE Name=%s', Name)
@@ -33,15 +33,15 @@ def record_view(Name):
     return render_template('view.html', title='View Form', award=result[0])
 
 
-@app.route('/edit/<String:Name>', methods=['GET'])
+@app.route('/edit/<string:Name>', methods=['GET'])
 def form_edit_get(Name):
     cursor = mysql.get_db().cursor()
-    cursor.execute('SELECT * FROM oscarfemale WHERE index=s%', Name)
+    cursor.execute('SELECT * FROM oscarfemale WHERE Name=s%', Name)
     result = cursor.fetchall()
     return render_template('edit.html', title='Edit Form', award=result[0])
 
 
-@app.route('/edit/<String:Name>', methods=['POST'])
+@app.route('/edit/<string:Name>', methods=['POST'])
 def form_update_post(Name):
     cursor = mysql.get_db().cursor()
     inputData = (request.form.get('index'), request.form.get('year'), request.form.get('age'),

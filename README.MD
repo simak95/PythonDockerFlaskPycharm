@@ -5,11 +5,12 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 
 [View Assignment Video Here](https://youtu.be/QbMWNgrfAFg)
 
-# Postman Screenshot
-![postman request output](screenshots/postman.png)
+# The project showing that you can view YOUR data tables in pycharm:
+![oscarData](screenshots/oscarData.png)
 
-# SQL Data Screenshot
-![pycharm data query](screenshots/query.png)
+# YOUR project running correctly in the browser displaying your homepage with your data
+![browserData](screenshots/browserData.png)
 
-# SQL Table Screenshot
-![sql_table](screenshots/sqltable.png)
+#Word file Submission: [Click Here](webpart3.docx)
+
+

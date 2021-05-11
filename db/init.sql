@@ -7,9 +7,8 @@ CREATE TABLE IF NOT EXISTS oscarfemale (
     `Age` INT,
     `Name` VARCHAR(22) CHARACTER SET utf8,
     `Movie` VARCHAR(35) CHARACTER SET utf8
-     PRIMARY KEY (`Index`)
 );
-INSERT INTO oscarfemale (Index, Year, Age, Name, Movie) VALUES
+INSERT INTO oscarfemale VALUES
     (1,1928,22,' "Janet Gaynor"',' "Seventh Heaven'),
     (2,1929,37,' "Mary Pickford"',' "Coquette"'),
     (3,1930,28,' "Norma Shearer"',' "The Divorcee"	'),

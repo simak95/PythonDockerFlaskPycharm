@@ -13,4 +13,4 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 
 #Word file Submission: [Click Here](webpart3.docx)
 
-
+ 

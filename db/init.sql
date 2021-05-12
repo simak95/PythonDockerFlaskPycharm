@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS oscarfemale (
     `Movie` VARCHAR(35) CHARACTER SET utf8
 );
 INSERT INTO oscarfemale VALUES
-    (1,1928,22,' "Janet Gaynor"',' "Seventh Heaven'),
+    (1,1928,22,' "Janet Gaynor"',' "Seventh Heaven"'),
     (2,1929,37,' "Mary Pickford"',' "Coquette"'),
     (3,1930,28,' "Norma Shearer"',' "The Divorcee"	'),
     (4,1931,63,' "Marie Dressler"',' "Min and Bill"'),

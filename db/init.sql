@@ -2,11 +2,11 @@ CREATE DATABASE oscarData;
 use oscarData;
 
 CREATE TABLE IF NOT EXISTS oscarfemale (
-    `Index` INT,
-    `Year` INT,
-    `Age` INT,
-    `Name` VARCHAR(22) CHARACTER SET utf8,
-    `Movie` VARCHAR(35) CHARACTER SET utf8
+    `index` INT,
+    `year` INT,
+    `age` INT,
+    `name` VARCHAR(22) CHARACTER SET utf8,
+    `movie` VARCHAR(35) CHARACTER SET utf8
 );
 INSERT INTO oscarfemale VALUES
     (1,1928,22,' "Janet Gaynor"',' "Seventh Heaven"'),

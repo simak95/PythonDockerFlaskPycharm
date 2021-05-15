@@ -9,7 +9,7 @@ services:
       - "5000:5000"
 
   db:
-    image: mysql:8.0.21
+    image: mysql:5.7
     container_name: "MySQL_Database"
     ports:
       - "32000:3306"
